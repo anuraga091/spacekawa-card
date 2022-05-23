@@ -75,7 +75,6 @@ const CardBottom = styled.div`
         padding: 2rem 4rem;
         width: 100%;
         position: relative;     
-        margin-bottom: 1.2rem;
        .project-box{
         border-radius: 10px;
         margin-bottom: 20px;

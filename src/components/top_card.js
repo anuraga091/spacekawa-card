@@ -35,10 +35,10 @@ render(){
                     <div class="main-box-info">
                             <div class="main-box-caption">
                             <div class="main left"><img src={item.picture.thumbnail} alt=""/></div>
-                            <div class="main right"><u>{item.name.title}&nbsp;{item.name.first}&nbsp;{item.name.last}</u>
-                            <p class="location-1"><span>{item.location.street.number + ","}</span>&nbsp;{item.location.street.name}&nbsp;{item.location.city}&nbsp;{item.location.state}&nbsp;<b>{item.location.country}</b>&nbsp;{item.location.postcode}</p>
-                            <p class="location-2">{item.location.timezone.offset}&nbsp;{item.location.timezone.description}</p>
-                            <p class="gender">{item.gender} </p>
+                            <div class="main right mb-0"><u>{item.name.title}&nbsp;{item.name.first}&nbsp;{item.name.last}</u>
+                            <p class="location-1 mb-0"><span>{item.location.street.number + ","}</span>&nbsp;{item.location.street.name}&nbsp;{item.location.city}&nbsp;{item.location.state}&nbsp;<b>{item.location.country}</b>&nbsp;{item.location.postcode}</p>
+                            <p class="location-2 mb-0">{item.location.timezone.offset}&nbsp;{item.location.timezone.description}</p>
+                            <p class="gender mb-0">{item.gender} </p>
                             </div>
                             </div>
                         </div>
